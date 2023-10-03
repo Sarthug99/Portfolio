@@ -47,7 +47,7 @@ const Portfolio_data = [
     image: weather,
     desc:"The React WeatherApp is a web application that uses OpenWeatherMap API to fetch weather data and displays it on the screen. It allows users to search for the current weather of any location by entering its name or zip code, and displays relevant weather information such as temperature, humidity, and wind speed.",
     desc2:"Tech:ReactJS,Redux toolkit,Material UI, NPM packages, Api handling,Axios",
-    link:"https://github.com/ChandanGunaga/Weather-app",
+    link:"https://github.com/ChandanGunaga/Weather-apa",
 
   },
 
