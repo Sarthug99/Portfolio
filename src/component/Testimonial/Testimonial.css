@@ -1,0 +1,120 @@
+.Testimonial h2 {
+  margin: 15px 0 0 0;
+}
+.Testimonial{
+  background-color: #e7e7e7;
+  padding: 1rem 0;
+}
+
+.Testimonial .left {
+  width: 35%;
+  padding: 35px;
+  margin: 20px;
+}
+.Testimonial .right {
+  width: 65%;
+  padding: 0 0 0 50px;
+  margin: 0 20px 0 0;
+}
+.Testimonial .quote i {
+  font-size: 150px;
+  opacity: 0.1;
+}
+
+.Testimonial .content {
+  padding: 60px;
+}
+.Testimonial .content h1 {
+  font-weight: 500;
+}
+.Testimonial .content h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.Testimonial .slide_button {
+  
+}
+.Testimonial .slide_button .prev_btn {
+  margin-right: 30px;
+}
+.arrow_btn_shadow{
+  padding: 14px 15px;
+  height: 50px;
+  width: 50px;
+  
+  border-radius: 50%;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.arrow_btn_shadow:hover{
+  background: #313bac;
+  color: white;
+}
+
+/*-----Testimonial slide-----------*/
+.Testimonial .slide {
+  max-width: 100%;
+  margin: auto;
+  height: 350px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+article.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+article.lastSlide {
+  transform: translateX(-100%);
+}
+article.nextSlide {
+  transform: translateX(100%);
+}
+/*-----Testimonial slide-----------*/
+@media (max-width: 768px) {
+  article {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .Testimonial .left {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    margin-top: 15%;
+  }
+  .Testimonial .left img {
+    width: 190px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  .Testimonial .right {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 0px;
+  }
+  .Testimonial .slide {
+    height: 70vh;
+    max-width: 90%;
+  }
+  .Testimonial .quote {
+    display: none;
+  }
+}
+.left-arrow{
+  height: 20px;
+  width: 20px;
+}
