@@ -141,7 +141,7 @@ const Resume = () => {
                 icon={<SchoolIcon />}
               >
                 <h3 className="vertical-timeline-element-title">
-                  College of Engineering, Pune | Pune, India
+                  College of Engineering | Pune, India
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   CGPA - 8.75 | Class Rank - 8
