@@ -45,6 +45,7 @@ const Card = (props) => {
               <h1>{props.title}</h1>
               <p>{props.desc}</p>
               <p>{props.desc2}</p>
+              <p>{props.desc3}</p>
               <div className='button f_flex mtop'>
                 <a href={props.link} target="_blank">
 

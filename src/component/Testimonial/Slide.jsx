@@ -1,7 +1,7 @@
 import React from "react"
 import TestimonialApi from "./TestimonialApi"
 
-const Slide = ({ id, image, design, name, offcer, post, date, desc, valueIndex, index }) => {
+const Slide = ({ id, image, design, name, offcer, post, date, desc, desc2, valueIndex, index }) => {
   let position = "nextSlide"
   if (valueIndex === index) {
     position = "activeSlide"
@@ -36,6 +36,7 @@ const Slide = ({ id, image, design, name, offcer, post, date, desc, valueIndex, 
             <h1>{post}</h1>
             <h3>{date}</h3>
             <p>{desc}</p>
+            <p>{desc2}</p>
           </div>
         </div>
       </article>

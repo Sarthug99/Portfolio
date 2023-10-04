@@ -33,6 +33,7 @@ const Portfolio = () => {
                     title={value.title}
                     desc={value.desc}
                     desc2={value.desc2}
+                    desc3={value.desc3}
                     link={value.link}
                   />
                 </motion.div>

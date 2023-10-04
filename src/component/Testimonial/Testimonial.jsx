@@ -24,7 +24,7 @@ const Testimonial = () => {
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
-    }, 3000);
+    }, 5000);
     return () => clearInterval(slider);
   }, [index]);
 
@@ -40,7 +40,7 @@ const Testimonial = () => {
       >
         <div className="container">
           <motion.div variants={textVariant2} className="heading text-center">
-            <h4>POSITIONS OF RESPONSIBILITIES & ACHIEVEMENTS</h4>
+            <h4>LEADERSHIP, AWARDS AND CERTIFICATIONS</h4>
             <h1>Achievements</h1>
           </motion.div>
           <motion.div variants={footerVariants} className="slide">

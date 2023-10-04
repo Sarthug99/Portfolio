@@ -29,51 +29,13 @@ const Features = () => {
             </motion.div>
             <div className="a-right">
               <motion.div  variants={textVariant(0.9)} className="a-desc">
-                &nbsp; &nbsp; &nbsp; As a ReactJS Developer and Software
-                Engineer with a year of experience, I specialize in building
-                robust, scalable and performant web applications. My proficiency
-                in ReactJS, data structures and algorithms, allows me to develop
-                complex applications that meet clients unique needs. If you're looking for a ReactJS Developer and Software Engineer
-                who is passionate about creating exceptional web applications
-                and enjoys working in a fast-paced, dynamic environment, look no
-                further. Let's connect!
-                If you're looking for a ReactJS Developer and Software Engineer
-                who is passionate about creating exceptional web applications
-                and enjoys working in a fast-paced, dynamic environment, look no
-                further. Let's connect!
+                &nbsp; &nbsp; &nbsp; Hello, I'm Sarthak, currently pursuing my Masters in Computer Science at New York University. My passion lies at the intersection of software development, data analytics, and artificial intelligence. I thrive on creating meaningful solutions to real-world problems and believe in the power of technology and data to drive positive change.
               </motion.div>
               <motion.div variants={textVariant(1.3)} className="a-desc">
-                Proficient in using modern tools and technologies such as
-                ReactJS, Redux, TailwindCss, Material UI. Writing clean,
-                well-documented, and maintainable code, ensuring that my
-                applications are easy to understand and scale. If you're looking for a ReactJS Developer and Software Engineer
-                who is passionate about creating exceptional web applications
-                and enjoys working in a fast-paced, dynamic environment, look no
-                further. Let's connect!
-                If you're looking for a ReactJS Developer and Software Engineer
-                who is passionate about creating exceptional web applications
-                and enjoys working in a fast-paced, dynamic environment, look no
-                further. Let's connect!
-              </motion.div>
+              One of my key strengths is solving complex problems by breaking them into manageable components. I enjoy tackling challenges head-on and take pride in delivering robust and innovative solutions that meet business requirements. I'm a quick learner who thrives in dynamic, fast-paced environments. Whether it's diving into new concepts, mastering cutting-edge technologies, or picking up a new programming language, I'm always up for the challenge. My enthusiasm for continuous learning keeps me at the forefront of industry trends and best practices.           </motion.div>
               <motion.div variants={textVariant(1.7)} className="a-desc">
-                If you're looking for a ReactJS Developer and Software Engineer
-                who is passionate about creating exceptional web applications
-                and enjoys working in a fast-paced, dynamic environment, look no
-                further. Let's connect!
-                If you're looking for a ReactJS Developer and Software Engineer
-                who is passionate about creating exceptional web applications
-                and enjoys working in a fast-paced, dynamic environment, look no
-                further. Let's connect!
-              </motion.div>
-              <motion.div variants={textVariant(1.7)} className="a-desc">
-                If you're looking for a ReactJS Developer and Software Engineer
-                who is passionate about creating exceptional web applications
-                and enjoys working in a fast-paced, dynamic environment, look no
-                further. Let's connect!
-                If you're looking for a ReactJS Developer and Software Engineer
-                who is passionate about creating exceptional web applications
-                and enjoys working in a fast-paced, dynamic environment, look no
-                further. Let's connect!
+              I am always excited to collaborate with like-minded professionals, share ideas, and contribute to impactful projects. If you are looking for a dedicated and versatile software developer with a passion for problem-solving, please feel free to reach out.
+              Let's connect and explore how we can create innovative solutions together!
               </motion.div>
 
             </div>

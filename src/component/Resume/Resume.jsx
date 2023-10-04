@@ -42,7 +42,7 @@ const Resume = () => {
                 <h4 className="vertical-timeline-element-subtitle">
                   GPA - (1st Sem ongoing)
                 </h4>
-                <p><b> Coursework - </b> Machine Learning, Big Data, Design and Analysis of Algorithms.</p>
+                <p>Coursework - Machine Learning, Big Data, Design and Analysis of Algorithms.</p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--education"
@@ -57,11 +57,11 @@ const Resume = () => {
                 <h4 className="vertical-timeline-element-subtitle">
                 Full Stack Developer 
                 </h4>
-                <h5 className="vertical-timeline-element-subtitle">
-                Stack - <i> Angular, Java, SpringBoot, SQL, ShellScript, Jenkins, Openshift, Python </i>
-                </h5>
+                <h4 className="vertical-timeline-element-subtitle">
+                Stack - Angular, Java, SpringBoot, SQL, ShellScript, Jenkins, Openshift, Python
+                </h4>
 
-                <p> ◦ Spearheaded development efforts on the ORaaS platform, a robust infrastructure hosting over 10,000 Oracle databases, ensuring <b> seamless operation </b> and <b>optimal performance.</b></p>
+                <p> ◦ Spearheaded development efforts on the ORaaS platform, a robust infrastructure hosting over 10,000 Oracle databases, ensuring seamless operation and optimal performance. </p>
                 <p> ◦ Managed the entire application lifecycle, from building to promotion and deployment, leveraging CI/CD tools, resulting in increased efficiency and reliability. </p>
                 <p> ◦ Led the development of an API testing framework using ShellScript, boosting the test coverage by 50%. </p>
                 <p> ◦ Implemented a user-friendly chatbot, effectively addressing FAQs, resulting in 30% enhancement in user engagement and support.   </p>
@@ -79,9 +79,9 @@ const Resume = () => {
                 <h4 className="vertical-timeline-element-subtitle">
                   Data Engineer
                 </h4>
-                <h5 className="vertical-timeline-element-subtitle">
-                  Stack - <i> Hadoop, PySpark, SQL, Hive, Impala, Flask, Redis, Python, Angular </i>
-                </h5>
+                <h4 className="vertical-timeline-element-subtitle">
+                  Stack - Hadoop, PySpark, SQL, Hive, Impala, Flask, Redis, Python, Angular
+                </h4>
 
                 <p> ◦ Engineered prototypes in Pyspark for diverse trade surveillance scenarios, as a member of the Data Engineering team, streamlining data analysis and ensuring compliance.</p>
                 <p> ◦ Innovated key features for a market-abuse detection scenario, bringing down the false positives by 70%.</p>
@@ -124,9 +124,9 @@ const Resume = () => {
                 <h4 className="vertical-timeline-element-subtitle">
                   Research and Development Intern
                 </h4>
-                <h5 className="vertical-timeline-element-subtitle">
-                 Stack - <i> TensorFlow, Keras, Deep Learning, Python, Image Processing </i>
-                </h5>
+                <h4 className="vertical-timeline-element-subtitle">
+                 Stack - TensorFlow, Keras, Deep Learning, Python, Image Processing
+                </h4>
                 <p>
                   ◦ Performed text extraction from images using a Faster R-CNN model for text detection and a CNN based on ResNet18 architecture for text recognition. The integrated model achieved an accuracy of 83%.
                 </p>
@@ -141,7 +141,7 @@ const Resume = () => {
                 icon={<SchoolIcon />}
               >
                 <h3 className="vertical-timeline-element-title">
-                  College of Engineering | Pune, India
+                  College of Engineering, Pune | Pune, India
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   CGPA - 8.75 | Class Rank - 8
